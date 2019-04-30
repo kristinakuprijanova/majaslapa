@@ -1,0 +1,84 @@
+body {
+    background-color: lightblue;
+}
+
+.navigation {}
+
+.navigation #autoskolaLogo {
+    width: 150px;
+    height: 70px;
+    vertical-align: middle;
+}
+
+.navigation li {
+    display: inline;
+    margin-left: 40px;
+}
+
+.navigation li :hover {
+    transition: 0.2s;
+    font-size: 22px;
+    color: red;
+    opacity: 0.6;
+}
+
+.navigation a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navigation ul {
+    padding-top: 15px;
+    text-align: center;
+}
+
+.Galerija li {
+    list-style-type: none;
+}
+
+.mainHeader {
+    height: 600px;
+    width: 100%;
+    background: url(Images/Facebook%20aug%C5%A1%C4%93jais%20att%C4%93ls.jpg) no-repeat center;
+}
+
+.kategorijasList {
+    list-style-position: inside;
+    column-count: 2;
+    list-style-type: decimal;
+}
+
+.kategorijasC {
+    padding-top: 7px;
+}
+
+table {
+
+    font-size: 20px;
+    color: darkslateblue;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 65px;
+
+}
+
+h1 {
+    font-size: 30px;
+    color: darkblue;
+    font-family: 'Roboto', sans-serif, bold;
+}
+
+.kontakti {
+    column-count: 2;
+    list-style-type: decimal;
+}
+
+.lauks {
+    padding-right: 250px;
+}
+
+label {
+    float: center;
+}
+}
